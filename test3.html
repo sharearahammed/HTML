@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <title> Form </title>
+</head>
+
+<body>
+     <h2>Registration form</h2>
+
+      <form> 
+           <div> 
+                <level for="FullName">FullName: </level>
+                <input type="text" name="fullName" id="fullName" required>
+           </div> <br/>
+
+           <div> 
+                <level for="email">Email: </level>
+                <input type="email" name="email" id="email" required>
+           </div> <br/>
+
+           <div> 
+                <level for="password">Password: </level>
+                <input type="password" name="password" id="password" required>
+           </div> <br/>
+
+           <div> 
+                <level for="dob">Date of birth: </level>
+                <input type="date" name="dob" id="dob" required>
+           </div> <br/>
+
+           <div> 
+                <level for="photo">Choose photo: </level>
+                <input type="file" name="photo" id="photo" required>
+           </div> <br/>
+
+           <div> 
+                <level for="Gender">Gender: </level>
+                <input type="radio" name="Gender" id="Gender" value="male">Male
+                <input type="radio" name="Gender" id="Gender" value="Feale">Female
+                <input type="radio" name="Gender" id="Gender" value="other">Other
+           </div> <br/>
+
+           <div> 
+                <level for="Religion">Religion: </level>
+                <input type="checkbox" name="Religion" id="Religion" value="muslim">Islam
+                <input type="checkbox" name="Religion" id="Religion" value="hindu">Hindu
+                <input type="checkbox" name="Religion" id="Religion" value="christhan">christhan
+           </div> <br/>   
+
+           <div>
+                <level for="department">Department: </level>
+  
+                <select>
+                        <option value="cse"> CSE </option>
+                        <option value="eee"> EEE </option>
+                        <option value="ip"> IP </option>
+                </select>
+           </div> <br/>
+
+           <div> 
+                <level for="message">Message: </level><br/>
+   
+                <textarea cols="50" rows="10">  </textarea>
+           </div>
+
+           <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+           </div>
+
+           
+
+
+      </form>
+
+</body>
+
+
+</html>
